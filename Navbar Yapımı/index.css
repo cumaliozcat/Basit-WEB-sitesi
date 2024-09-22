@@ -1,0 +1,88 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(Light\ Modern\ Textile\ Minimalism\ Desktop\ Wallpaper.png);
+  font-family: sans-serif;
+}
+.navbar {
+  background-color: #f48fb1;
+  text-align: center;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+.navbar ul li {
+  width: 150px;
+  margin: 15px;
+  padding: 15px;
+}
+.navbar ul li a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.navbar ul li a:hover {
+  cursor: pointer;
+  font-weight: bold;
+}
+.navbar ul li i {
+  margin-right: 2px;
+}
+.menu1 {
+  display: none;
+}
+.navbar ul li:hover .menu1 {
+  display: block;
+  position: absolute;
+  background-color: #f48fb1;
+  margin-top: 18px;
+  margin-left: -20px;
+}
+.navbar ul li:hover .menu1 ul {
+  display: inline-block;
+}
+.menu2 {
+  display: none;
+}
+.navbar ul li:hover .menu2 {
+  display: block;
+  position: absolute;
+  background-color: #f48fb1;
+  margin-top: 18px;
+  margin-left: -20px;
+}
+.navbar ul li:hover .menu2 ul {
+  display: inline-block;
+}
+.resimm {
+  width: 400px;
+  height: 500px;
+  border-radius: 50%;
+  margin-left: 150px;
+  margin-top: 50px;
+  border: 10px double black;
+}
+
+.hakkında {
+  border: 10px double  black;
+  padding: 5px;
+  background-color:#f48fb1;
+  width: 700px;
+  font-family: "Pacifico", cursive;
+  font-weight: 900px;
+  font-style: normal;
+  color: whitesmoke;
+  font-size: 35px;
+  margin: 30px;
+  
+}
+.flex-container{
+    display: flex;
+    margin: 20px;
+}
